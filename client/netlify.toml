@@ -1,7 +1,7 @@
 [build]
-  command = "npm install && vite build"
-  publish = "/dist"
-  base ="/"
+  command = "vite build"
+  base ="client"
+  publish = "client/dist"
 
 [[redirects]]
   from = "/*"
